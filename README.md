@@ -62,17 +62,6 @@ function testGovernanceUpdatesBox() public {
 | `Quorum`        | 4% of total supply      |
 | `Min Delay`     | 1 hour (3600s)          |
 
-## 📂 Project Structure
-
-├── src/
-│   ├── GovToken.sol
-│   ├── MyGovernor.sol
-│   ├── TimeLock.sol
-│   └── Box.sol
-├── test/
-│   └── MyGovernorTest.t.sol
-├── foundry.toml
-└── README.md
 
 ## 📌 How Governance Works
 1. A user proposes a change (e.g., call Box.store()).
